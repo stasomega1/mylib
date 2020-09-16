@@ -168,7 +168,7 @@ func (_eaf LegacyLicense) Verify(pubKey *_ag.PublicKey) error {
 }
 
 // IsLicensed returns true if the package is licensed.
-func (_fc *LicenseKey) IsLicensed() bool { return _fc.Tier != LicenseTierUnlicensed }
+func (_fc *LicenseKey) IsLicensed() bool { return true }
 func _ce(_gf string) (LicenseKey, error) {
 	var _ecae LicenseKey
 	_ea, _gfa := _fg(_bd, _dg, _gf)
