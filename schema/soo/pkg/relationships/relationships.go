@@ -14,7 +14,7 @@ package relationships
 import (
 	_e "encoding/xml"
 	_g "fmt"
-	_d "github.com/unidoc/unioffice"
+	_d "github.com/stasomega1/mylib"
 )
 
 func (_cdb *Relationship) UnmarshalXML(d *_e.Decoder, start _e.StartElement) error {

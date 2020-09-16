@@ -14,8 +14,8 @@ package diagram
 import (
 	_a "encoding/xml"
 	_bg "fmt"
-	_fb "github.com/unidoc/unioffice"
-	_bb "github.com/unidoc/unioffice/schema/soo/dml"
+	_fb "github.com/stasomega1/mylib"
+	_bb "github.com/stasomega1/mylib/schema/soo/dml"
 	_b "strconv"
 )
 

@@ -13,8 +13,8 @@ package extended_properties
 
 import (
 	_e "encoding/xml"
-	_ee "github.com/unidoc/unioffice"
-	_eee "github.com/unidoc/unioffice/schema/soo/ofc/docPropsVTypes"
+	_ee "github.com/stasomega1/mylib"
+	_eee "github.com/stasomega1/mylib/schema/soo/ofc/docPropsVTypes"
 )
 
 type CT_Properties struct {

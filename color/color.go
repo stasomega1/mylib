@@ -15,7 +15,7 @@ package color
 
 import (
 	_b "fmt"
-	_fg "github.com/unidoc/unioffice"
+	_fg "github.com/stasomega1/mylib"
 )
 
 var AliceBlue = Color{0xF0, 0xF8, 0xFF, 255, false}

@@ -12,10 +12,10 @@
 package drawing
 
 import (
-	_b "github.com/unidoc/unioffice"
-	_a "github.com/unidoc/unioffice/color"
-	_gc "github.com/unidoc/unioffice/measurement"
-	_g "github.com/unidoc/unioffice/schema/soo/dml"
+	_b "github.com/stasomega1/mylib"
+	_a "github.com/stasomega1/mylib/color"
+	_gc "github.com/stasomega1/mylib/measurement"
+	_g "github.com/stasomega1/mylib/schema/soo/dml"
 )
 
 // SetGeometry sets the shape type of the shape

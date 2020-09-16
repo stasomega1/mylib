@@ -14,8 +14,8 @@ package lockedCanvas
 import (
 	_ac "encoding/xml"
 	_d "fmt"
-	_b "github.com/unidoc/unioffice"
-	_e "github.com/unidoc/unioffice/schema/soo/dml"
+	_b "github.com/stasomega1/mylib"
+	_e "github.com/stasomega1/mylib/schema/soo/dml"
 )
 
 // Validate validates the LockedCanvas and its children

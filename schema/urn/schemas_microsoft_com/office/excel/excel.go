@@ -14,8 +14,8 @@ package excel
 import (
 	_f "encoding/xml"
 	_d "fmt"
-	_fe "github.com/unidoc/unioffice"
-	_c "github.com/unidoc/unioffice/schema/soo/ofc/sharedTypes"
+	_fe "github.com/stasomega1/mylib"
+	_c "github.com/stasomega1/mylib/schema/soo/ofc/sharedTypes"
 )
 
 func (_cfcg ST_ObjectType) String() string {

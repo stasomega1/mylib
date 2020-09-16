@@ -14,7 +14,7 @@ package word
 import (
 	_c "encoding/xml"
 	_b "fmt"
-	_g "github.com/unidoc/unioffice"
+	_g "github.com/stasomega1/mylib"
 	_d "strconv"
 )
 

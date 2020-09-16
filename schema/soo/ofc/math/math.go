@@ -14,8 +14,8 @@ package math
 import (
 	_f "encoding/xml"
 	_b "fmt"
-	_bf "github.com/unidoc/unioffice"
-	_g "github.com/unidoc/unioffice/schema/soo/ofc/sharedTypes"
+	_bf "github.com/stasomega1/mylib"
+	_g "github.com/stasomega1/mylib/schema/soo/ofc/sharedTypes"
 	_d "strconv"
 )
 

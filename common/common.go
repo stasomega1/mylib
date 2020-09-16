@@ -20,18 +20,18 @@ import (
 	_ce "bytes"
 	_cbc "encoding/xml"
 	_e "fmt"
-	_bb "github.com/unidoc/unioffice"
-	_fb "github.com/unidoc/unioffice/common/tempstorage"
-	_ff "github.com/unidoc/unioffice/common/tempstorage/diskstore"
-	_fd "github.com/unidoc/unioffice/measurement"
-	_fa "github.com/unidoc/unioffice/schema/soo/dml"
-	_be "github.com/unidoc/unioffice/schema/soo/ofc/custom_properties"
-	_ag "github.com/unidoc/unioffice/schema/soo/ofc/docPropsVTypes"
-	_ca "github.com/unidoc/unioffice/schema/soo/ofc/extended_properties"
-	_ced "github.com/unidoc/unioffice/schema/soo/pkg/content_types"
-	_ed "github.com/unidoc/unioffice/schema/soo/pkg/metadata/core_properties"
-	_agf "github.com/unidoc/unioffice/schema/soo/pkg/relationships"
-	_feg "github.com/unidoc/unioffice/zippkg"
+	_bb "github.com/stasomega1/mylib"
+	_fb "github.com/stasomega1/mylib/common/tempstorage"
+	_ff "github.com/stasomega1/mylib/common/tempstorage/diskstore"
+	_fd "github.com/stasomega1/mylib/measurement"
+	_fa "github.com/stasomega1/mylib/schema/soo/dml"
+	_be "github.com/stasomega1/mylib/schema/soo/ofc/custom_properties"
+	_ag "github.com/stasomega1/mylib/schema/soo/ofc/docPropsVTypes"
+	_ca "github.com/stasomega1/mylib/schema/soo/ofc/extended_properties"
+	_ced "github.com/stasomega1/mylib/schema/soo/pkg/content_types"
+	_ed "github.com/stasomega1/mylib/schema/soo/pkg/metadata/core_properties"
+	_agf "github.com/stasomega1/mylib/schema/soo/pkg/relationships"
+	_feg "github.com/stasomega1/mylib/zippkg"
 	_d "image"
 	_ "image/gif"
 	_ "image/jpeg"
@@ -192,7 +192,7 @@ func (_gcg CustomProperties) SetPropertyAsI2(name string, i2 int16) {
 }
 
 // Application returns the name of the application that created the document.
-// For unioffice created documents, it defaults to github.com/unidoc/unioffice
+// For unioffice created documents, it defaults to github.com/stasomega1/mylib
 func (_bga AppProperties) Application() string {
 	if _bga._efa.Application != nil {
 		return *_bga._efa.Application
@@ -306,7 +306,7 @@ func (_dea CoreProperties) Description() string {
 func (_eea Relationship) ID() string { return _eea._gbd.IdAttr }
 
 // Company returns the name of the company that created the document.
-// For unioffice created documents, it defaults to github.com/unidoc/unioffice
+// For unioffice created documents, it defaults to github.com/stasomega1/mylib
 func (_bef AppProperties) Company() string {
 	if _bef._efa.Company != nil {
 		return *_bef._efa.Company

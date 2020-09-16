@@ -14,8 +14,8 @@ package dml
 import (
 	_b "encoding/xml"
 	_bb "fmt"
-	_f "github.com/unidoc/unioffice"
-	_eb "github.com/unidoc/unioffice/schema/soo/ofc/sharedTypes"
+	_f "github.com/stasomega1/mylib"
+	_eb "github.com/stasomega1/mylib/schema/soo/ofc/sharedTypes"
 	_c "regexp"
 	_a "strconv"
 	_ea "time"

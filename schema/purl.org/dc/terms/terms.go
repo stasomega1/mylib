@@ -14,8 +14,8 @@ package terms
 import (
 	_a "encoding/xml"
 	_ac "fmt"
-	_f "github.com/unidoc/unioffice"
-	_fc "github.com/unidoc/unioffice/schema/purl.org/dc/elements"
+	_f "github.com/stasomega1/mylib"
+	_fc "github.com/stasomega1/mylib/schema/purl.org/dc/elements"
 )
 
 func NewBox() *Box { _ab := &Box{}; return _ab }

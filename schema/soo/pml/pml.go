@@ -14,9 +14,9 @@ package pml
 import (
 	_e "encoding/xml"
 	_d "fmt"
-	_f "github.com/unidoc/unioffice"
-	_da "github.com/unidoc/unioffice/schema/soo/dml"
-	_ef "github.com/unidoc/unioffice/schema/soo/ofc/sharedTypes"
+	_f "github.com/stasomega1/mylib"
+	_da "github.com/stasomega1/mylib/schema/soo/dml"
+	_ef "github.com/stasomega1/mylib/schema/soo/ofc/sharedTypes"
 	_a "strconv"
 	_g "time"
 )

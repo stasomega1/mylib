@@ -14,10 +14,10 @@ package chart
 import (
 	_c "encoding/xml"
 	_aa "fmt"
-	_cf "github.com/unidoc/unioffice"
-	_d "github.com/unidoc/unioffice/schema/soo/dml"
-	_dd "github.com/unidoc/unioffice/schema/soo/dml/chartDrawing"
-	_da "github.com/unidoc/unioffice/schema/soo/ofc/sharedTypes"
+	_cf "github.com/stasomega1/mylib"
+	_d "github.com/stasomega1/mylib/schema/soo/dml"
+	_dd "github.com/stasomega1/mylib/schema/soo/dml/chartDrawing"
+	_da "github.com/stasomega1/mylib/schema/soo/ofc/sharedTypes"
 	_a "regexp"
 	_e "strconv"
 )

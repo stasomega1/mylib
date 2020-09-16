@@ -13,8 +13,8 @@ package picture
 
 import (
 	_b "encoding/xml"
-	_a "github.com/unidoc/unioffice"
-	_c "github.com/unidoc/unioffice/schema/soo/dml"
+	_a "github.com/stasomega1/mylib"
+	_c "github.com/stasomega1/mylib/schema/soo/dml"
 )
 
 func (_bdg *CT_PictureNonVisual) MarshalXML(e *_b.Encoder, start _b.StartElement) error {

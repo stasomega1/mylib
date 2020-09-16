@@ -17,7 +17,7 @@ import (
 	_f "encoding/hex"
 	_dg "errors"
 	_de "fmt"
-	_fb "github.com/unidoc/unioffice/common/tempstorage"
+	_fb "github.com/stasomega1/mylib/common/tempstorage"
 	_c "io"
 	_b "io/ioutil"
 	_cf "math/rand"

@@ -14,7 +14,7 @@ package core_properties
 import (
 	_cc "encoding/xml"
 	_b "fmt"
-	_a "github.com/unidoc/unioffice"
+	_a "github.com/stasomega1/mylib"
 	_cf "time"
 )
 

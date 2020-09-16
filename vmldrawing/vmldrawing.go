@@ -14,10 +14,10 @@ package vmldrawing
 import (
 	_b "encoding/xml"
 	_ff "fmt"
-	_c "github.com/unidoc/unioffice"
-	_ba "github.com/unidoc/unioffice/schema/soo/ofc/sharedTypes"
-	_d "github.com/unidoc/unioffice/schema/urn/schemas_microsoft_com/office/excel"
-	_a "github.com/unidoc/unioffice/schema/urn/schemas_microsoft_com/vml"
+	_c "github.com/stasomega1/mylib"
+	_ba "github.com/stasomega1/mylib/schema/soo/ofc/sharedTypes"
+	_d "github.com/stasomega1/mylib/schema/urn/schemas_microsoft_com/office/excel"
+	_a "github.com/stasomega1/mylib/schema/urn/schemas_microsoft_com/vml"
 )
 
 // NewCommentDrawing constructs a new comment drawing.

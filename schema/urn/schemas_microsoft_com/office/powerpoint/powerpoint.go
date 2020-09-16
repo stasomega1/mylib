@@ -14,7 +14,7 @@ package powerpoint
 import (
 	_b "encoding/xml"
 	_g "fmt"
-	_e "github.com/unidoc/unioffice"
+	_e "github.com/stasomega1/mylib"
 )
 
 func NewCT_Empty() *CT_Empty { _ec := &CT_Empty{}; return _ec }

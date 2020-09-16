@@ -14,7 +14,7 @@ package content_types
 import (
 	_e "encoding/xml"
 	_c "fmt"
-	_ga "github.com/unidoc/unioffice"
+	_ga "github.com/stasomega1/mylib"
 	_eb "regexp"
 )
 

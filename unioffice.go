@@ -26,8 +26,8 @@ spreadsheet.Workbook and presentation.Presentation), the other wrapper types are
 value types with non-pointer methods.  They exist solely to modify and return
 data from one or more XML types.
 
-The packages of interest are github.com/unidoc/unioffice/document,
-unidoc/unioffice/spreadsheet and github.com/unidoc/unioffice/presentation.
+The packages of interest are github.com/stasomega1/mylib/document,
+unidoc/unioffice/spreadsheet and github.com/stasomega1/mylib/presentation.
 
 */
 package unioffice
@@ -36,7 +36,7 @@ import (
 	_c "encoding/xml"
 	_cc "errors"
 	_d "fmt"
-	_bd "github.com/unidoc/unioffice/algo"
+	_bd "github.com/stasomega1/mylib/algo"
 	_cf "log"
 	_b "reflect"
 	_aa "strings"

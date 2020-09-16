@@ -14,7 +14,7 @@ package reference
 import (
 	_a "errors"
 	_cb "fmt"
-	_bg "github.com/unidoc/unioffice/spreadsheet/update"
+	_bg "github.com/stasomega1/mylib/spreadsheet/update"
 	_bf "regexp"
 	_g "strconv"
 	_c "strings"

@@ -31,7 +31,7 @@ package format
 import (
 	_bf "bytes"
 	_b "fmt"
-	_f "github.com/unidoc/unioffice"
+	_f "github.com/stasomega1/mylib"
 	_d "io"
 	_a "math"
 	_bb "strconv"

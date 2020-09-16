@@ -14,7 +14,7 @@ package elements
 import (
 	_b "encoding/xml"
 	_ac "fmt"
-	_e "github.com/unidoc/unioffice"
+	_e "github.com/stasomega1/mylib"
 )
 
 type ElementContainer struct{ Choice []*ElementsGroupChoice }

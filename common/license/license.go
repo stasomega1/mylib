@@ -27,7 +27,7 @@ import (
 	_gc "encoding/pem"
 	_bc "errors"
 	_db "fmt"
-	_cc "github.com/unidoc/unioffice/common"
+	_cc "github.com/stasomega1/mylib/common"
 	_e "io"
 	_d "log"
 	_b "regexp"

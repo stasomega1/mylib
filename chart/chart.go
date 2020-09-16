@@ -13,12 +13,12 @@ package chart
 
 import (
 	_c "fmt"
-	_gd "github.com/unidoc/unioffice"
-	_e "github.com/unidoc/unioffice/color"
-	_gf "github.com/unidoc/unioffice/drawing"
-	_f "github.com/unidoc/unioffice/measurement"
-	_bg "github.com/unidoc/unioffice/schema/soo/dml"
-	_g "github.com/unidoc/unioffice/schema/soo/dml/chart"
+	_gd "github.com/stasomega1/mylib"
+	_e "github.com/stasomega1/mylib/color"
+	_gf "github.com/stasomega1/mylib/drawing"
+	_f "github.com/stasomega1/mylib/measurement"
+	_bg "github.com/stasomega1/mylib/schema/soo/dml"
+	_g "github.com/stasomega1/mylib/schema/soo/dml/chart"
 	_b "math/rand"
 )
 

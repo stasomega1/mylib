@@ -29,18 +29,18 @@ import (
 	_d "bytes"
 	_ef "errors"
 	_cf "fmt"
-	_c "github.com/unidoc/unioffice"
-	_bbd "github.com/unidoc/unioffice/color"
-	_aeb "github.com/unidoc/unioffice/common"
-	_ba "github.com/unidoc/unioffice/common/license"
-	_aebc "github.com/unidoc/unioffice/common/tempstorage"
-	_ce "github.com/unidoc/unioffice/measurement"
-	_ed "github.com/unidoc/unioffice/schema/soo/dml"
-	_cde "github.com/unidoc/unioffice/schema/soo/dml/picture"
-	_fg "github.com/unidoc/unioffice/schema/soo/ofc/sharedTypes"
-	_bf "github.com/unidoc/unioffice/schema/soo/pkg/relationships"
-	_fgg "github.com/unidoc/unioffice/schema/soo/wml"
-	_ca "github.com/unidoc/unioffice/zippkg"
+	_c "github.com/stasomega1/mylib"
+	_bbd "github.com/stasomega1/mylib/color"
+	_aeb "github.com/stasomega1/mylib/common"
+	_ba "github.com/stasomega1/mylib/common/license"
+	_aebc "github.com/stasomega1/mylib/common/tempstorage"
+	_ce "github.com/stasomega1/mylib/measurement"
+	_ed "github.com/stasomega1/mylib/schema/soo/dml"
+	_cde "github.com/stasomega1/mylib/schema/soo/dml/picture"
+	_fg "github.com/stasomega1/mylib/schema/soo/ofc/sharedTypes"
+	_bf "github.com/stasomega1/mylib/schema/soo/pkg/relationships"
+	_fgg "github.com/stasomega1/mylib/schema/soo/wml"
+	_ca "github.com/stasomega1/mylib/zippkg"
 	_bb "image"
 	_dg "image/jpeg"
 	_ae "io"
@@ -4049,7 +4049,7 @@ type Header struct {
 }
 
 // SetConformance sets conformance attribute of the document
-// as one of these values from github.com/unidoc/unioffice/schema/soo/ofc/sharedTypes:
+// as one of these values from github.com/stasomega1/mylib/schema/soo/ofc/sharedTypes:
 // ST_ConformanceClassUnset, ST_ConformanceClassStrict or ST_ConformanceClassTransitional.
 func (_affc Document) SetConformance(conformanceAttr _fg.ST_ConformanceClass) {
 	_affc._cdaa.ConformanceAttr = conformanceAttr
@@ -4208,7 +4208,7 @@ func (_cfaf ParagraphStyleProperties) SetLeftIndent(m _ce.Distance) {
 }
 
 // SetStrict is a shortcut for document.SetConformance,
-// as one of these values from github.com/unidoc/unioffice/schema/soo/ofc/sharedTypes:
+// as one of these values from github.com/stasomega1/mylib/schema/soo/ofc/sharedTypes:
 // ST_ConformanceClassUnset, ST_ConformanceClassStrict or ST_ConformanceClassTransitional.
 func (_cce Document) SetStrict(strict bool) {
 	if strict {

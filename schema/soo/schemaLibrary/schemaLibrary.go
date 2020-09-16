@@ -14,7 +14,7 @@ package schemaLibrary
 import (
 	_d "encoding/xml"
 	_fe "fmt"
-	_a "github.com/unidoc/unioffice"
+	_a "github.com/stasomega1/mylib"
 )
 
 type CT_Schema struct {

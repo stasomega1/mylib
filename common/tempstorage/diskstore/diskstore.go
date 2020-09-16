@@ -14,7 +14,7 @@
 package diskstore
 
 import (
-	_f "github.com/unidoc/unioffice/common/tempstorage"
+	_f "github.com/stasomega1/mylib/common/tempstorage"
 	_c "io/ioutil"
 	_eb "os"
 	_e "strings"

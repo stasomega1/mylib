@@ -14,12 +14,12 @@ package vml
 import (
 	_b "encoding/xml"
 	_e "fmt"
-	_d "github.com/unidoc/unioffice"
-	_bd "github.com/unidoc/unioffice/schema/soo/ofc/sharedTypes"
-	_c "github.com/unidoc/unioffice/schema/soo/wml"
-	_ga "github.com/unidoc/unioffice/schema/urn/schemas_microsoft_com/office/excel"
-	_fb "github.com/unidoc/unioffice/schema/urn/schemas_microsoft_com/office/powerpoint"
-	_a "github.com/unidoc/unioffice/schema/urn/schemas_microsoft_com/office/word"
+	_d "github.com/stasomega1/mylib"
+	_bd "github.com/stasomega1/mylib/schema/soo/ofc/sharedTypes"
+	_c "github.com/stasomega1/mylib/schema/soo/wml"
+	_ga "github.com/stasomega1/mylib/schema/urn/schemas_microsoft_com/office/excel"
+	_fb "github.com/stasomega1/mylib/schema/urn/schemas_microsoft_com/office/powerpoint"
+	_a "github.com/stasomega1/mylib/schema/urn/schemas_microsoft_com/office/word"
 	_g "strconv"
 )
 
