@@ -2203,7 +2203,7 @@ func Read(r _ae.ReaderAt, size int64) (*Document, error) {
 	_ade.AddTarget(_c.ContentTypesFilename, _efc.ContentTypes.X(), "", 0)
 	_ade.AddTarget(_c.BaseRelsFilename, _efc.Rels.X(), "", 0)
 	if _fdce := _ade.Decode(_dgeeb); _fdce != nil {
-		return nil, _fdce
+		return nil, _cf.Errorf("decode error %s", _fdce)
 	}
 	_efc._cdaa.ConformanceAttr = _ggg
 	for _, _feg := range _dgeeb {
@@ -2211,7 +2211,7 @@ func Read(r _ae.ReaderAt, size int64) (*Document, error) {
 			continue
 		}
 		if _dcf := _efc.AddExtraFileFromZip(_feg); _dcf != nil {
-			return nil, _dcf
+			return nil, _cf.Errorf("AddExtraFileFromZip error %s", _dcf)
 		}
 	}
 	if _fgb {
