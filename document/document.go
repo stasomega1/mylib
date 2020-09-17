@@ -2178,7 +2178,7 @@ func Read(r _ae.ReaderAt, size int64) (*Document, error) {
 	_efc.Numbering._fdda = nil
 	_bgad, _fafd := _aebc.TempDir("\u0075\u006e\u0069\u006f\u0066\u0066\u0069\u0063\u0065-\u0064\u006f\u0063\u0078")
 	if _fafd != nil {
-		return nil, _fafd
+		return nil, _cf.Errorf("TempDir error: %s", _fafd.Error())
 	}
 	_efc.TmpPath = _bgad
 	_acdb, _fafd := _f.NewReader(r, size)
