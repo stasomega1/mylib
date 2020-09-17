@@ -2747,12 +2747,12 @@ func (_fddb ParagraphStyleProperties) SetOutlineLevel(lvl int) {
 func Open(filename string) (*Document, error) {
 	_aece, _fcgb := _cd.Open(filename)
 	if _fcgb != nil {
-		return nil, _cf.Errorf("e\u0072r\u006f\u0072\u0020\u006f\u0070\u0065\u006e\u0069n\u0067\u0020\u0025\u0073: \u0025\u0073", filename, _fcgb)
+		return nil, _cf.Errorf("error opening %s: %s", filename, _fcgb)
 	}
 	defer _aece.Close()
 	_dgee, _fcgb := _cd.Stat(filename)
 	if _fcgb != nil {
-		return nil, _cf.Errorf("e\u0072r\u006f\u0072\u0020\u006f\u0070\u0065\u006e\u0069n\u0067\u0020\u0025\u0073: \u0025\u0073", filename, _fcgb)
+		return nil, _cf.Errorf("error opening %s: %s", filename, _fcgb)
 	}
 	_ = _dgee
 	return Read(_aece, _dgee.Size())
